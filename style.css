@@ -1,10 +1,11 @@
-    body {
+body {
   background-image: url("pngtree-boba-background-picture-image_13224609.jpg");
   background-color: #cccccc;
+    text-align: center;
 }
 body {
   color: rgb(46, 0, 0);
-    text-align: center;
+    
 }
 
 h1 {
