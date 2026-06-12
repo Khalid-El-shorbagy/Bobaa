@@ -1,11 +1,8 @@
 body {
   background-image: url("pngtree-boba-background-picture-image_13224609.jpg");
   background-color: #cccccc;
-    text-align: center;
-}
-body {
+  text-align: center;
   color: rgb(46, 0, 0);
-    
 }
 
 h1 {
@@ -28,7 +25,8 @@ p {
   border-width: 2px;
   padding: 10px;
 }
-div {
+
+.animated {
   width: 100px;
   height: 152px;
   background-color: red;
@@ -40,9 +38,11 @@ div {
   from {background-color: red;}
   to {background-color: yellow;}
 }
+
 @media (max-width: 768px) {
   .sidebar { display: none; } 
 }
+
 .container {
   display: grid;
   grid-template-areas:
@@ -54,20 +54,25 @@ div {
   background-color: dodgerblue;
   padding: 5px;
 }
+
 .container div {
   background-color: white;
   padding: 10px;
 }
+
 .container div.header {
   grid-area: header;
   text-align: center;
 }
+
 .container div.menu {
   grid-area: menu;
 }
+
 .container div.content {
   grid-area: content;
 }
+
 .container div.footer {
   grid-area: footer;
   text-align: center;  
