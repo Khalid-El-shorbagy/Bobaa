@@ -77,8 +77,20 @@ p {
   grid-area: footer;
   text-align: center;  
 }
-#grad1 {
-  height: 100px;
-  background-color: red; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+.cards-container {
+  display: flex;            /* تفعيل الفليكس بوكس */
+  flex-direction: row;      /* رص الكروت جنب بعض أفقياً */
+  justify-content: space-between; /* وزع الكروت وسيب مسافات متساوية بينهم */
+  align-items: center;      /* خلي الكروت كلها على خط استواء واحد رأساً */
+  gap: 15px;                /* مسافة أمان إضافية بين كل كارت والتاني */
+  
+  background: linear-gradient(to right, #6a11cb, #2575fc); /* ضرب عصفورين بحجر: فليكس وتدرج لوني */
+  padding: 20px;
+}
+
+.card {
+  background: #fff;
+  color: #333;
+  padding: 15px;
+  border-radius: 8px;
 }
