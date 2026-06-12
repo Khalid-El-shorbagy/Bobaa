@@ -78,13 +78,13 @@ p {
   text-align: center;  
 }
 .cards-container {
-  display: flex;            /* تفعيل الفليكس بوكس */
-  flex-direction: row;      /* رص الكروت جنب بعض أفقياً */
-  justify-content: space-between; /* وزع الكروت وسيب مسافات متساوية بينهم */
-  align-items: center;      /* خلي الكروت كلها على خط استواء واحد رأساً */
-  gap: 15px;                /* مسافة أمان إضافية بين كل كارت والتاني */
+  display: flex;        
+  flex-direction: row;  
+  justify-content: space-between;
+  align-items: center;  
+  gap: 15px;           
   
-  background: linear-gradient(to right, #6a11cb, #2575fc); /* ضرب عصفورين بحجر: فليكس وتدرج لوني */
+  background: linear-gradient(to right, #6a11cb, #2575fc); 
   padding: 20px;
 }
 
