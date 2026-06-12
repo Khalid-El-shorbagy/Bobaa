@@ -77,3 +77,23 @@ p {
   grid-area: footer;
   text-align: center;  
 }
+.border-gradient-rounded {
+  /* Border */
+  border: 4px solid transparent;
+  border-radius: 20px;
+  background: 
+    linear-gradient(to right, white, white), 
+    linear-gradient(to right, red , blue); 
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  
+  /* Other styles */
+  width: 100px;
+  height: 40px;
+  padding: 12px;
+}
+</style>
+
+<div class="border-gradient-rounded">
+  Content
+</div>
