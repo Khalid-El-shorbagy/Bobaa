@@ -77,3 +77,6 @@ p {
   grid-area: footer;
   text-align: center;  
 }
+#grad {
+  background-image: linear-gradient(to top, red, yellow);
+}
